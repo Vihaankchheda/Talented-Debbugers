@@ -1,0 +1,35 @@
+body {
+    background: url("https://i.ibb.co/KWydDD2/Tura.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form {
+    padding-left: 700px;
+    padding-top: 200px;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+button:hover {
+    background-color: grey;
+}
+
+h1 {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-size: 50px;
+    color: white;
+    
+}

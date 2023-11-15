@@ -1,0 +1,162 @@
+
+.slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 20px;
+}
+
+
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 100px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+
+h1 {
+    font-size: 60px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+body {
+    background: linear-gradient(to top, rgb(82, 231, 18),rgb(22, 236, 126),rgb(21, 214, 95),rgb(48, 225, 32),rgb(15, 128, 77),rgb(13, 219, 126));
+}
+.B {
+    background-color: lightcoral;
+    padding:15px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    border: 5px solid red;
+    padding-bottom: 50px;
+}
+
+.B h2 {
+    font-size: 45px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: yellow;
+    font-style: bold;
+    font-size: 25px;
+    height: 200px;
+    width: 1000px;
+
+}
+
+.box {
+    padding-left: 200px;
+}
+
+.container button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(240, 16, 232);
+    color: black;
+}
+
+.C {
+    padding-left: 140px;
+}
+
+.D {
+    padding-left: 140px;
+}
+
+.E {
+   padding-left: 140px;
+}
+
+.container {
+    display: flex;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.box-a {
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.container-a {
+    background-color: yellow;
+    font-style: bold;
+    font-size: 25px;
+    height: 200px;
+    width: 1000px;
+    display: flex;
+}
+
+.F {
+    padding-left: 260px;
+}
+
+.G {
+    padding-left: 140px;
+}
+
+.H {
+    padding-left: 140px;
+}

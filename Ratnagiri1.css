@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(
+        to right,
+        rgb(74, 228, 8),
+        rgb(18, 203, 55),
+        white
+    );
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-family: sans-serif;
+
+}
+
+.A {
+    font-style: bold;
+    font-size: 50px;
+    font-family: calibri;
+
+
+}
+
+.A img {
+    max-width: 500px;
+    padding-top: 100px;
+}
+
+.A p {
+    float: right;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+
+.B {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.B img {
+    max-width: 500px;
+    float: right;
+}
+
+.B p {
+    float: left;
+    font-size: 25px;
+}
+
+.C {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.C h3{
+   text-align: left;
+   font-size: 50px;
+   padding-top: 450px;
+}
+
+.C img {
+    max-width: 500px;
+    float: left;
+}
+
+.C p {
+    float: right;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+
+.D {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.D h3 {
+    padding-top: 200px;
+}
+
+.D img {
+    max-width: 500px;
+    float: right;
+}
+
+.D p {
+    float: left;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
