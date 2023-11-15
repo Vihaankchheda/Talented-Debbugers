@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(
+        to right,
+        rgb(220, 68, 8),
+        rgb(212, 93, 13),
+        white
+    );
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-family: sans-serif;
+
+}
+
+.KarlaCaves {
+    font-style: bold;
+    font-size: 50px;
+    font-family: calibri;
+
+
+}
+
+.KarlaCaves img {
+    max-width: 500px;
+    padding-top: 80px;
+}
+
+.KarlaCaves h3 {
+    font-size: 50px;
+    font-style: bold;
+    font-family: sans-serif, calibri;
+    padding-top: 60px;
+}
+
+
+
+.KarlaCaves a {
+    text-align: center;
+}
+.KarlaCaves p {
+    font-size: 25px;
+    float: right;
+
+
+}
+
+.KarlaCaves ol {
+     font-size:20px;
+
+}
+
+.KarlaCaves h4 {
+    font-size: 25px;
+    font-style: bold;
+}
+
+
+
+
+.PavanaLake {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.PavanaLake img {
+    max-width: 500px;
+    float: right;
+    padding-right: 30px;
+}
+
+.PavanaLake p {
+    float: left;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 95px;
+}
+
+.KorigadFort {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.KorigadFort img {
+    max-width: 500px;
+    float: left;
+    padding-right: 30px;
+    padding-top: 95px;
+}
+
+.KorigadFort p {
+    float: right;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 80px;
+}
+
+.KuneFalls {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.KuneFalls h3 {
+    float: left;
+    padding-right: 1000px;
+}
+
+.KuneFalls img {
+    max-width: 500px;
+    float: right;
+    padding-right: 30px;
+    padding-top: 95px;
+}
+
+.KuneFalls p {
+    float: left;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 80px;
+    padding-top: 100px;
+}
+

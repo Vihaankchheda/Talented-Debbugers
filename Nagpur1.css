@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(
+        to right,
+        rgb(176, 44, 77),
+        rgb(210, 45, 150),
+        white
+    );
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-family: sans-serif;
+
+}
+
+.A {
+    font-style: bold;
+    font-size: 50px;
+    font-family: calibri;
+
+
+}
+
+.A img {
+    max-width: 500px;
+}
+
+.A p {
+    float: right;
+    font-size: 25px;
+   
+}
+
+
+.B {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.B img {
+    max-width: 500px;
+    float: right;
+}
+
+.B p {
+    float: left;
+    font-size: 25px;
+}
+
+.C {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.C h3{
+   text-align: left;
+   font-size: 50px;
+   padding-top: 300px;
+}
+
+.C img {
+    max-width: 500px;
+    float: left;
+}
+
+.C p {
+    float: right;
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+
+.D {
+    font-style: bold;
+    text-align: left;
+    font-size: 50px;
+}
+
+.D h3 {
+    padding-top: 150px;
+}
+
+.D img {
+    max-width: 500px;
+    float: right;
+}
+
+.D p {
+    float: left;
+    font-size: 25px;
+}
+
+img {
+    max-width: 500px;
+    max-height: 400px;
+}
+
+li {
+    font-style: bold;
+    font-size: 25px;
+}
