@@ -1,0 +1,71 @@
+html {
+    font-size: 10px;
+    background-image: url("https://i.ibb.co/YWVjDwq/undefined-1604051074-227-e.png");
+    background-size: cover;
+}
+
+
+
+.hikey {
+    display: flex;
+    justify-content: center;
+}
+
+
+.heading {
+   color: #ffc600;
+   text-align: center;
+   font-size: 40px;
+   margin: 0;
+   padding: 0;
+   margin-top: 30pz;
+}
+
+body {
+    text-align: center;
+    
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+   
+  
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+  }

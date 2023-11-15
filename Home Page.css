@@ -1,0 +1,493 @@
+body {
+    background: linear-gradient(
+        to bottom,
+        rgb(18, 63, 199),
+        rgb(16, 137, 230),
+        rgb(17, 214, 232)
+    );
+    color: black;
+    font-style: bold;
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-family: calibri;
+    font-size: 50px;
+    color: Yellow;
+}
+
+
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-style: bold;
+    background-color: aquamarine;
+}
+
+.container {
+    height: 200px;
+    width: 600px;
+    background-color: black;
+}
+
+.A {
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.B {
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.C {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.D {
+    float: left;
+    padding-top: 20px;
+}
+
+.container p {
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.box {
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+.box-a {
+    padding-top: 50px;
+    padding-left: 250px;
+}
+
+.container-a {
+    height: 280px;
+    width: 900px;
+    background-color: black;
+}
+
+.container-a p {
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.H {
+   float: left;
+   padding-left: 90px;
+   padding-right: 50px;
+}
+.G{
+    float: left;
+    padding-right: 50px;
+}
+
+.I {
+    float: left;
+    padding-right: 50px;
+}
+
+.J{
+    float: left;
+    padding-right: 50px;
+}
+
+.K {
+    float: left;
+    padding-right: 50px;
+}
+
+.L{
+    float: left;
+}
+
+.M {
+    float: left;
+    padding-left: 170px;
+}
+
+.N {
+    float: left;
+    padding-left: 50px;   
+}
+
+.O {
+    float: left;
+    padding-left: 50px;
+}
+
+.P {
+    float: left;
+    padding-left: 50px;
+}
+
+.Q {
+    float: left;
+    padding-left: 50px;
+}
+
+.container-b {
+    height: 200px;
+    width: 800px;
+    background-color: black;
+    box-shadow: 5px, 1px  , 2px solid black;
+}
+
+.container-b p {
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.box-b {
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+.R {
+    float: left;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.S {
+    float: left;
+    padding-right: 50px;
+}
+
+.T {
+    float: left;
+    padding-right: 50px;
+}
+
+.U {
+    float: left;
+    padding-right: 50px;
+}
+
+.V {
+    float: left;
+    padding-right: 50px;
+}
+
+.W {
+    float: left;
+    padding-right: 50px;
+}
+
+.box-c {
+    padding-top: 50px;
+    padding-left: 400px;
+}
+
+.container-c {
+    height: 170px;
+    width: 600px;
+    background-color: black;
+}
+
+.container-c p {
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.Aa {
+     float: left;
+     padding-left: 120px;
+}
+
+.Bb {
+    float: left;
+    padding-left: 50px;
+}
+
+.Cc {
+    float: left;
+    padding-left: 50px;
+}
+
+.box-d {
+        padding-top: 80px;
+}
+
+.container-d {
+    height: 50px;
+    width: 1432px;
+    padding-bottom: 25px;
+    background-color: rgb(240, 137, 12);
+}
+
+.container-d p {
+    float: left;
+    font-style: bold;
+    font-size: 25px;
+    color: black;
+}
+
+.ac {
+    padding-left: 300px;
+    color: black;
+    text-decoration: none;
+}
+
+.ba {
+  padding-left: 300px;
+}
+
+.cb {
+    padding-left: 300px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.box-e {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.container-e {
+    height: 280px;
+    width: 1200px;
+    background-color: black;
+    box-shadow: 5px, 1px  , 2px solid black;
+}
+
+.container-e p {
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.Ee {
+   float: left;
+   padding-left: 110px;
+   padding-right: 50px;
+  
+}
+
+.Ff {
+    float: left;
+    padding-right: 50px;
+   
+}
+
+.Gg {
+    float: left;
+    padding-right: 50px;
+    
+}
+
+.Hh {
+    float: left;
+    padding-right: 50px;
+}
+
+.Ii {
+    float: left;
+    padding-right: 50px;
+   
+}
+
+.Jj {
+    float: left;
+    padding-right: 50px;
+  
+}
+
+.KK {
+    float: left;
+    padding-left: 190px;
+    padding-right: 50px;
+}
+
+.Ll {
+    float: left;
+    padding-right: 50px;
+}
+
+.Mm {
+    float: left;
+    padding-right: 50px;
+}
+
+.Nn {
+    float: left;
+    padding-right: 50px;
+}
+
+.Oo {
+    float: left;
+    padding-right: 50px;
+}
+
+.Pp {
+    float: left;
+    padding-right: 50px;
+}
+
+.Qq {
+    float: left;
+    padding-left: 280px;
+    padding-right: 50px;
+  
+}
+
+.Rr {
+    float: left;
+    padding-right: 50px;
+}
+
+.Ss {
+    float: left;
+    padding-right: 50px;
+}
+
+.Tt {
+    float: left;
+    padding-right: 50px;
+}
+
+.Uu {
+    float: left;
+    padding-right: 50px;
+}
+
+.box-f {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.container-f {
+    height: 280px;
+    width: 1200px;
+    background-color: black;
+    box-shadow: 5px, 1px  , 2px solid black;
+}
+
+.container-f p {
+    font-size: 25px;
+    font-style: bold;
+    color: white;
+    text-align: center;
+}
+
+.Eee {
+   float: left;
+   padding-left: 250px;
+   padding-right: 50px;
+  
+}
+
+.Fff {
+    float: left;
+    padding-right: 50px;
+   
+}
+
+.Ggg {
+    float: left;
+    padding-right: 50px;
+    
+}
+
+.Hhh {
+    float: left;
+    padding-right: 50px;
+}
+
+.Iii {
+    float: left;
+    padding-right: 50px;
+   
+}
+
+.Jjj {
+    float: left;
+    padding-right: 50px;
+  
+}
+
+.Kkk {
+    float: left;
+    padding-left: 260px;
+    padding-right: 50px;
+}
+
+.Lll {
+    float: left;
+    padding-right: 50px;
+}
+
+.Mmm {
+    float: left;
+    padding-right: 50px;
+}
+
+.Nnn {
+    float: left;
+    padding-right: 50px;
+}
+
+.Ooo {
+    float: left;
+    padding-right: 50px;
+}
+
+.Ppp {
+    float: left;
+    padding-right: 50px;
+}
+
+.Qqq {
+    float: left;
+    padding-left: 280px;
+    padding-right: 50px;
+  
+}
+
+.Rrr {
+    float: left;
+    padding-right: 50px;
+}
+
+.Sss {
+    float: left;
+    padding-right: 50px;
+}
+
+.Ttt {
+    float: left;
+    padding-right: 50px;
+}
+
+.Uuu {
+    float: left;
+    padding-right: 50px;
+}

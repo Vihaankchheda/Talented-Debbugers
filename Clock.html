@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: -o-linear-gradient(to right, rgb(67, 193, 39),rgb(23, 202, 122),white);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    font-size: 2rem;
+}
+
+
+.box {
+    height: 50px;
+    width: 130px;
+    background: black;
+    color: white;
+    text-align: center;
+    float: center;
+    
+}
+
+.time {
+    padding-top: 20px;
+}
+
+.v {
+    float: center;
+    padding-top: 90px;
+    padding-right: 700px;
+}
+
+h1 {
+    font-size: 50px;
+    color: aqua;
+    font-style: italic;
+    font-family: calibri,sans-serif;
+    padding-right: 200px;
+
+}
+
+</style>
+</head>
+<body>
+    <h1>Talented Debbugers Digital Clock</h1>
+    <div class="v">
+    <div class="box">
+    <div class="clock">
+        <div id="time"></div>
+    </div>
+    </div>
+    </div>
+    <script>
+function updateClock() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    document.getElementById('time').textContent = timeString;
+}
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+
+// Initial call to display the clock immediately
+updateClock();
+</script>
+</body>
+</html>
