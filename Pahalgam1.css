@@ -137,27 +137,24 @@ body {
 }
 
 .box-a {
-    padding-top: 40px;
-    padding-left: 200px;
+    padding-left: 700px;
+    padding-top: 50px;
+  }
+  
+  .container-a {
+      background-color: yellow;
+      font-style: bold;
+      font-size: 25px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+  }
+
+.h3a {
+    text-align: center;
+    padding-left: 100px;
 }
 
-.container-a {
-    background-color: yellow;
-    font-style: bold;
-    font-size: 25px;
-    height: 200px;
-    width: 1000px;
-    display: flex;
-}
-
-.F {
-    padding-left: 170px;
-}
-
-.G {
-    padding-left: 140px;
-}
-
-.H {
-    padding-left: 140px;
+ol {
+    padding-top: 60px;
 }
