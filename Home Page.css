@@ -9,13 +9,6 @@ body {
     font-style: bold;
 }
 
-@media all and (min-width: 800px;) {
-    .body {
-        flex: 3;
-    }
-}
-
-
 h1 {
     text-align: center;
     font-style: bold;
@@ -498,37 +491,3 @@ a:hover {
     float: left;
     padding-right: 50px;
 }
-
-@media all and (min-width: 800px;) {
-    .body {
-        flex: 3;
-    }
-
-    .box {
-        order: 1;
-    }
-
-    .box-a {
-        order: 2;
-
-    }
-
-    
-
-    .body{
-        order: 2;
-    }
-
-    
-    .box-f {
-        order: 4;
-    }
-}
-
-@media all and (min-width: 600px) {
-    .body {
-        flex: 1;
-    }
-}
-
-
