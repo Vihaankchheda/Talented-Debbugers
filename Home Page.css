@@ -1,9 +1,13 @@
 body {
     background: linear-gradient(
         to bottom,
-        rgb(18, 63, 199),
-        rgb(16, 137, 230),
-        rgb(17, 214, 232)
+        rgb(0, 255, 225),
+        rgb(18, 196, 199),
+        rgb(17, 196, 232),
+        rgb(0, 119, 255),
+        rgb(0, 94, 255)
+        
+        
     );
     color: black;
     font-style: bold;
@@ -491,3 +495,6 @@ a:hover {
     float: left;
     padding-right: 50px;
 }
+
+
+
